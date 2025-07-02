@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hammad Dalvi - Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.png" type="image/png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+</head>
+<header>
+  <!-- DESKTOP NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="img/logo.png" alt="Logo" />
+  </div>
+  <ul class="nav-links desktop-nav">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+</nav>
+
+<!-- MOBILE NAVBAR -->
+<div class="mobile-navbar">
+  <img src="img/logo.png" class="mobile-logo" />
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</div>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu-overlay" id="menu">
+  <span class="close-btn" onclick="toggleMenu()">✕</span>
+  <ul class="mobile-nav-links">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+</div>
+
+
+  <!-- Hero Section -->
+<section class="hero-section">
+  <div class="left-content">
+    <h2>Hi, I am</h2>
+    <h1>Hammad Dalvi</h1>
+    <p>Front-end Developer / UI Designer</p>
+    <div class="social-icons">
+      <a href="mailto:hammaddalvi@gmail.com">
+        <img src="img/mail.png" alt="Email" />
+      </a>
+      <a href="https://www.linkedin.com/in/hammad-dalvi08">
+        <img src="img/linkedin.png" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/CodewithHammad08" ">
+        <img src="img/github.png" alt="GitHub" />
+      </a>
+    </div>
+  </div>
+  <div class="right-content">
+    <img src="img/hammad.png" alt="Hammad Dalvi" />
+  </div>
+</section>
+</header>
+
+
+
+<body>
+  <div class="container">
+
+
+    <section class="about">
+      <h2>HAMMAD DALVI</h2>
+      <p>I’m a web enthusiast, aspiring developer, and AI/ML learner. My passion lies in building creative, functional
+        digital experiences — whether that’s a clean landing page, an interactive project, or smart systems powered by
+        AI.
+        Currently pursuing B.Tech in Artificial Intelligence and Machine Learning, I’m exploring how innovation and
+        design can solve real-world problems.</p>
+      <img src="img/IT.png" alt="IT logo" class="it-logo" />
+    </section>
+
+    <section class="about-section" id="about">
+      <h2>ABOUT ME</h2>
+      <p class="about-intro">
+        "A passionate front-end developer & AI/ML enthusiast, crafting digital experiences with purpose."
+      </p>
+
+      <div class="explore-line">
+        <span>EXPLORE</span>
+        <div class="line-decor"></div>
+      </div>
+
+      <div class="about-cards">
+        <div class="card">
+          <h3>DESIGN</h3>
+          <img src="img/deign.png" alt="Design Icon" />
+          <p>I create clean, user-focused UI designs tailored to your brand and goals. Whether from scratch or improving
+            existing layouts, I focus on clarity and impact.</p>
+        </div>
+
+        <div class="card">
+          <h3>DEVELOPMENT</h3>
+          <img src="img/development.png" alt="Development Icon" />
+          <p>I bring designs to life using modern front-end technologies like HTML, CSS, JavaScript, and frameworks.
+            Clean code, responsive design, and performance come first.</p>
+        </div>
+
+        <div class="card">
+          <h3>OPTIMIZATION</h3>
+          <img src="img/optimization.png" alt="Optimization Icon" />
+          <p>I improve website speed, SEO, and user experience for better performance. I also handle bug fixes, content
+            tweaks, and functionality upgrades.</p>
+        </div>
+      </div><br><br>
+      <img src="img/separator.png" alt="" />
+    </section>
+
+
+
+    <section class="skills-section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skill-group">
+        <h3>Using Now:</h3>
+        <div class="skill-icons">
+          <div class="skill"><img src="img/html.png"><span>HTML5</span></div>
+          <div class="skill"><img src="img/cs.png"><span>CSS3</span></div>
+          <div class="skill"><img src="img/sass.png"><span>SASS</span></div>
+          <div class="skill"><img src="img/js.png"><span>JavaScript</span></div>
+        </div>
+        <div class="skill-icons">
+          <div class="skill"><img src="img/react.png"><span>React</span></div>
+          <div class="skill"><img src="img/bootstrap.png"><span>Bootstrap</span></div>
+          <div class="skill"><img src="img/git.png"><span>Git</span></div>
+          <div class="skill"><img src="img/figma.png"><span>Figma</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Learning:</h3>
+        <div class="skill-icons">
+          <div class="skill"><img src="img/nodejs.png"><span>Node.js</span></div>
+          <div class="skill"><img src="img/mysql.png"><span>MySQL</span></div>
+          <div class="skill"><img src="img/mongodb.png"><span>MongoDB</span></div>
+          <div class="skill"><img src="img/typescript.png"><span>TypeScript</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Other Skills:</h3>
+        <div class="skill-icons">
+          <div class="skill"><img src="img/java.png"><span>Java</span></div>
+          <div class="skill"><img src="img/python.png"><span>Python</span></div>
+          <div class="skill"><img src="img/c.png"><span>C</span></div>
+          <div class="skill"><img src="img/office.png"><span>MS Office</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+     <div class="portfolio-grid">
+    <section class="portfolio-section" id="portfolio">
+      <div class="portfolio-header">
+        <h2>PORTFOLIO</h2>
+      </div>
+      <div class="portfolio-filters">
+        <span class="filter active" data-filter="all">All</span>
+        <span class="filter" data-filter="coded">Coded</span>
+        <span class="filter" data-filter="designed">Designed</span>
+        <div class="cta"></div>
+      </div>
+      <!-- Portfolio Cards -->
+      <div class="portfolio-items">
+        <div class="portfolio-item designed show">
+          <img src="img/project-1.png" alt="Project 1">
+          <h4>Music Website</h4>
+        </div>
+        <div class="portfolio-item coded show">
+          <img src="img/project-2.jpg" alt="Project 2">
+          <h4>Book-Store Ecommerce Website</h4>
+        </div>
+        
+        <div class="portfolio-item coded show">
+          <img src="img/project-7.png" alt="Design 1">
+          <h4>Managment Website</h4>
+        </div>
+        <div class="portfolio-item designed show">
+          <img src="img/project-3.jpg" alt="Design 2">
+          <h4>Ecommerce Website</h4>
+        </div>
+      </div>
+      <div class="portfolio-end">
+        <h3">And many more to come!</h3>
+      </div>
+    </section>
+    <!-- resume -->
+    <section class="resume-section" id="resume">
+      <h2 class="section-title">Qualification</h2>
+
+      <div class="education">
+        <h3><i class="fas fa-book-open"></i> Education</h3>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="dot"></span>
+            <div class="content">
+              <h4>Bharati Vidyapeeth Deemed To Be University – Department Of Engineering & Technology</h4>
+              <p>Bachelor of Technology in Computer Science and Engineering<br>
+                <em>(Artificial Intelligence and Machine Learning)</em>
+              </p>
+              <span class="date">2024 — 2028</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="dot"></span>
+            <div class="content">
+              <h4>Higher Secondary Certificate (HSC)</h4>
+              <p>Maharashtra State Board</p>
+              <span class="date">2024</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="dot"></span>
+            <div class="content">
+              <h4>Secondary School Certificate (SSC)</h4>
+              <p>Maharashtra State Board</p>
+              <span class="date">2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- contact form -->
+   <section id="contact" class="contact-section">
+  <h2 class="section-title2">Contact</h2>
+
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60293.15628230507!2d72.98086000797791!3d19.181121653353408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf117349510b%3A0xc8148b8a43075d71!2sMumbra%2C%20Thane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1751111984778!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="form-container">
+    <h3>Contact Form</h3>
+
+    <form action="https://formspree.io/f/mzzgyydl" method="POST" class="contact-form">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Full name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+      </div>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <!-- Hidden location input -->
+      <input type="hidden" name="location" id="user-location">
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </div>
+  </div>
+</section>
+    
+
+<footer class="footer">
+  <div class="back-to-top">
+    <a href="#top"><i class="fas fa-angle-up"></i><br>Back to Top</a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/hammaddalvi08"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.linkedin.com/in/hammad-dalvi08"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/hammad_dalvi08/"><i class="fab fa-instagram"></i></a>
+    <a href="mailto:hammaddalvi905@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <p class="copyright">
+    ©2025 <strong>Hammad Dalvi</strong> All Rights Reserved.
+  </p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
